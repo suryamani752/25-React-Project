@@ -38,7 +38,6 @@ export default function Random() {
         height: "100vh",
         background: randomColor,
         textAlign: "center",
-        
       }}
     >
       <button onClick={() => setTypeOfColor("hex")}>Create Hex Color</button>
@@ -57,7 +56,7 @@ export default function Random() {
           fontSize: "60px",
           margin: "50px",
           flexDirection: "column",
-        gap: "20px",
+          gap: "20px",
         }}
       >
         <h3>{typeOfColor === "rgb" ? "RGB Color " : "Hex Color "}</h3>
