@@ -1,0 +1,11 @@
+.active {
+  color: #fff700;
+}
+.inactive {
+  color: black;
+}
+.star-rating{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
